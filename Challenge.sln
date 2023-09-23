@@ -8,17 +8,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Shared", "Challenge.Shared\Challenge.Shared.csproj", "{7E1E999E-8413-4ADE-B799-D5BBDC628BDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Data", "Challenge.Data\Challenge.Data.csproj", "{9D622DAA-2200-4351-B923-467E0CFD5852}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Data", "Challenge.Data\Challenge.Data.csproj", "{9D622DAA-2200-4351-B923-467E0CFD5852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callenge.ExternalServicies", "Callenge.ExternalServicies\Callenge.ExternalServicies.csproj", "{FFD50261-72D1-4A0A-8D15-A75D9DE67CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Service", "Challenge.Service\Challenge.Service.csproj", "{619B4A0E-4FBA-4C7B-B148-09C72F95A346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Service", "Challenge.Service\Challenge.Service.csproj", "{619B4A0E-4FBA-4C7B-B148-09C72F95A346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Tests", "Challenge.Test\Challenge.Tests.csproj", "{C67D1F5F-1A98-4347-9850-F8662883381B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Tests", "Challenge.Test\Challenge.Tests.csproj", "{C67D1F5F-1A98-4347-9850-F8662883381B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.ExternalServices", "Challenge.ExternalServices\Challenge.ExternalServices.csproj", "{935E1B3B-2031-4ADA-A2D7-79B206914633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.ExternalServices", "Challenge.ExternalServices\Challenge.ExternalServices.csproj", "{935E1B3B-2031-4ADA-A2D7-79B206914633}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.ToolKit", "Challenge.ToolKit\Challenge.ToolKit.csproj", "{A42DE5D8-CDDA-4104-9888-9358E49203CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.ToolKit", "Challenge.ToolKit\Challenge.ToolKit.csproj", "{A42DE5D8-CDDA-4104-9888-9358E49203CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
