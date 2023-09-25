@@ -1,15 +1,14 @@
-﻿using Challenge.Shared.DBModels;
-using Challenge.Shared.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Challenge.Service.Interfaces
+﻿namespace Challenge.Service.Interfaces
 {
+    using Challenge.Shared.DBModels;
+    using Challenge.Shared.DTOs;
+
     public interface IPaymentService
     {
-        public PaymentValidationResponse PaymentValidation(Guid id);
+        public Task<Payment> GetDetails(Guid id);
+        public Task<IList<Payment>> Get();
+        public Task<Payment> Post(PaymentPost payment);
+        public Task<Payment> Put (PaymentPut payment);
+        public Task Delete(Payment payment);
     }
 }

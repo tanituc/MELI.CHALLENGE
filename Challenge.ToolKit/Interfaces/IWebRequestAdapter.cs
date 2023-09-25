@@ -1,12 +1,9 @@
 ﻿namespace Challenge.ToolKit.Interfaces
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using System.Net.Http.Headers;
     public interface IWebRequestAdapter
     {
-        byte[] GetRemoteData(string url);
+        public byte[] GetRemoteData(string url);
+        public byte[] GetRemoteData(string url, Dictionary<string, string> headers);
     }
 }

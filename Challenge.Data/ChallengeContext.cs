@@ -5,7 +5,7 @@
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
 
-    public class ChallengeContext : IdentityDbContext
+    public class ChallengeContext : DbContext
     {
         public ChallengeContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
         public DbSet<Payment>                       Payments { get; set; }

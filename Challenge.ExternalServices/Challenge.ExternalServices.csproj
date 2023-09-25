@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.ToolKit\Challenge.ToolKit.csproj" />
+  </ItemGroup>
+
 </Project>

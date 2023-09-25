@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.ExternalServices\Challenge.ExternalServices.csproj" />
+  </ItemGroup>
+
 </Project>
