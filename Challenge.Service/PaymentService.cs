@@ -4,7 +4,7 @@
     using Challenge.ExternalServices;
     using Challenge.Service.Interfaces;
     using Challenge.Shared;
-    using Challenge.Shared.DBModels;
+    using Challenge.Shared.Models;
     using Challenge.Shared.DTOs;
     using Challenge.Shared.PolyEnums;
     using Microsoft.EntityFrameworkCore;

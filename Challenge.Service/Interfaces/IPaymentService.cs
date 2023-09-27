@@ -1,6 +1,6 @@
 ﻿namespace Challenge.Service.Interfaces
 {
-    using Challenge.Shared.DBModels;
+    using Challenge.Shared.Models;
     using Challenge.Shared.DTOs;
 
     public interface IPaymentService

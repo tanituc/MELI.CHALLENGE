@@ -3,7 +3,7 @@
     using Challenge.Data;
     using Challenge.Service;
     using Challenge.Service.Interfaces;
-    using Challenge.Shared.DBModels;
+    using Challenge.Shared.Models;
     using Challenge.Shared.DTOs;
     using Microsoft.AspNetCore.Mvc;
 
@@ -48,12 +48,6 @@
             if (user == null) return NotFound();
             await userService.Delete(user);
             return NoContent();
-        }
-        [HttpGet("Validation/{id}")]
-        public async Task<IActionResult> UserRiskmentValidation(Guid id)
-        {
-            var userRiskValidationResponse = await userService.UserRiskValidation(id);
-            return userRiskValidationResponse == null ? NotFound() : Ok(userRiskValidationResponse);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Challenge.Shared.DBModels
+﻿namespace Challenge.Shared.Models
 {
     public class Payment
     {

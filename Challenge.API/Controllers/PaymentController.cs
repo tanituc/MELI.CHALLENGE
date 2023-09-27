@@ -3,7 +3,7 @@
     using Challenge.Data;
     using Challenge.Service;
     using Challenge.Service.Interfaces;
-    using Challenge.Shared.DBModels;
+    using Challenge.Shared.Models;
     using Challenge.Shared.DTOs;
     using Microsoft.AspNetCore.Mvc;
     [Route("api/[controller]")]

@@ -17,6 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.ExternalServices"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.ToolKit", "Challenge.ToolKit\Challenge.ToolKit.csproj", "{A42DE5D8-CDDA-4104-9888-9358E49203CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADA2FB79-3EDA-4022-A2E9-F2FE04087F01}"
+	ProjectSection(SolutionItems) = preProject
+		Challenge.API\.env = Challenge.API\.env
+		.env = .env
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
