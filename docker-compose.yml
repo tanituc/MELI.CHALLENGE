@@ -1,0 +1,22 @@
+version: '3'
+services:
+  db:
+    container_name: Challenge.DataBase
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: Challenge2023
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./SQL:/docker-entrypoint-initdb.d
+
+  app:
+    container_name: Challenge.Api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_CONNECTION_STRING: $DATABASE_CONNECTION_STRING
+    ports:
+      - "5172:5172"

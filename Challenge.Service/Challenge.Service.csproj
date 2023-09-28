@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Data\Challenge.Data.csproj" />
+    <ProjectReference Include="..\Challenge.Shared\Challenge.Shared.csproj" />
+    <ProjectReference Include="..\Challenge.ToolKit\Challenge.ToolKit.csproj" />
+  </ItemGroup>
+
+</Project>
