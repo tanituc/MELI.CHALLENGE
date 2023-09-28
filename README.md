@@ -14,7 +14,7 @@ Asegúrese de tener DBeaver instalado o algun manejador de base de datos a elecc
 5. Ejecutar los scripts de la carpeta SQL atravez de DBeaver:
 	1. Clickear en New Data Base Connection
 	2. Seleccionar la opcion SQLServer y presionar el boton de Siguiente
-	3. En el casillero Host colocar tu ip local, en el casillero Port deberia ir el valor ```1433```, user deberia ser ```sa``` y la contraseña ```Challenge2023```y presionar el boton de OK
+	3. En el casillero Host colocar tu ip local, en el casillero Port deberia ir el valor ```1433```, user deberia ser ```sa``` y la contraseña ```Challenge2023``` y luego presionar el boton de OK
 	4. Click derecho sobre la conexion > SQL Editor > New SQL Script
 	5. Pegar el contenido de los scripts de la carpeta ```MELI.CHALLENGE\SQL``` y ejecutarlos en orden en base al prefijo con ```ALT + X```
 6. Ya puede acceder a http://localhost:5172/swagger/index.html
