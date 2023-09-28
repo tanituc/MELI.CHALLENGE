@@ -4,7 +4,6 @@ Este repositorio contiene un contenedor Docker que ejecuta una aplicación web. 
 
 ## Requisitos previos
 Asegúrese de tener Docker instalado en su máquina. Puede descargar e instalar Docker desde [el sitio web oficial de Docker](https://www.docker.com/get-started).
-Asegúrese de tener DBeaver instalado o algun manejador de base de datos a eleccion. Puede descargar e instalar DBeaver desde [el sitio oficial de DBeaver](https://dbeaver.io/download/).
 
 ## Pasos para ejecutar el container
 1. Clonar el repositorio ```git clone https://github.com/tanituc/MELI.CHALLENGE.git```
