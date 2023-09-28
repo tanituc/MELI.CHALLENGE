@@ -4,7 +4,6 @@
     using Challenge.Service;
     using Challenge.Service.Interfaces;
     using Challenge.Shared.Models;
-    using Challenge.Shared.DTOs;
     using Microsoft.AspNetCore.Mvc;
 
     [Route("api/[controller]")]
@@ -33,14 +32,13 @@
         public async Task<IActionResult> Post(User user)
         {
             var savedUser = await userService.Post(user);
-            return CreatedAtAction("Post", user.Id, user);
+            return CreatedAtAction("Post", savedUser.Id, savedUser);
         }
         [HttpPut]
         public async Task<IActionResult> Put(User user)
         {
-
             var savedUser = await userService.Put(user);
-            return CreatedAtAction("Put", user.Id, user);
+            return CreatedAtAction("Put", savedUser.Id, savedUser);
         }
         [HttpDelete]
         public async Task<IActionResult> Delete(User user)
