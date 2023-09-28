@@ -47,7 +47,106 @@ namespace Challenge.Shared.MockUpData
                 singleton.countries[0].Name,
                 singleton.countries[0].Currency,
                 random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
+                DateTime.Parse("7/26/2023 8:39:38 PM"),
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Now,
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Parse("7/26/2023 8:39:38 PM"),
+                uSDPrice
+                ));
+            payments.Add(createPayment(
+                Guid.NewGuid(),
+                users[random.Next(0, 4)].Id,
+                singleton.statuses[random.Next(0, 3)].Id,
+                singleton.countries[0].Id,
+                singleton.countries[0].Name,
+                singleton.countries[0].Currency,
+                random.Next(500, 99999),
+                DateTime.Parse("7/26/2023 8:39:38 PM"),
                 uSDPrice
                 ));
             payments.Add(createPayment(
@@ -135,7 +234,7 @@ namespace Challenge.Shared.MockUpData
                 singleton.countries[0].Name,
                 singleton.countries[0].Currency,
                 random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
+                DateTime.Now,
                 uSDPrice
                 ));
             payments.Add(createPayment(
@@ -146,7 +245,7 @@ namespace Challenge.Shared.MockUpData
                 singleton.countries[0].Name,
                 singleton.countries[0].Currency,
                 random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
+                DateTime.Now,
                 uSDPrice
                 ));
             payments.Add(createPayment(
@@ -157,106 +256,7 @@ namespace Challenge.Shared.MockUpData
                 singleton.countries[0].Name,
                 singleton.countries[0].Currency,
                 random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
-                uSDPrice
-                ));
-            payments.Add(createPayment(
-                Guid.NewGuid(),
-                users[random.Next(0, 4)].Id,
-                singleton.statuses[random.Next(0, 3)].Id,
-                singleton.countries[0].Id,
-                singleton.countries[0].Name,
-                singleton.countries[0].Currency,
-                random.Next(500, 99999),
-                DateTime.Parse("9/26/2023 8:39:38 PM"),
+                DateTime.Now,
                 uSDPrice
                 ));
         }

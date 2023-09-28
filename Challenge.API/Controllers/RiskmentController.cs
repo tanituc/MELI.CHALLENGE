@@ -19,7 +19,6 @@ namespace Challenge.API.Controllers
             riskmentService = new RiskmentService(this.context);
         }
         [HttpGet("User/{id}")]
-        [Description("Comprobar en base al id de un usuario los riesgos")]
         public async Task<IActionResult> UserRiskmentValidation(Guid id)
         {
             var userRiskValidationResponse = await riskmentService.UserRiskValidation(id);

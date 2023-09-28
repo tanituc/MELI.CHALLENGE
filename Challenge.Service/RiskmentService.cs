@@ -35,10 +35,10 @@ namespace Challenge.Service
             return payments.Count(p => p.StatusId == RejectedStatusId && p.PaymentDate > DateTime.Now.AddDays(-1));
         }
 
-        private double CalculateTotalAmmountLastWeek(List<Payment> payments, User user)
+        private double CalculateTotalAmmountLastWeek(List<Payment> payments)
         {
             Guid ApprovedStatusId = singleton.statuses.Find(x => x.Value == "Approved").Id;
-            return payments.Where(x => x.PaymentDate > DateTime.Now.AddDays(-7) && x.StatusId == ApprovedStatusId).Sum(x => x.AmmountUSD);
+            return Math.Round(payments.Where(x => x.PaymentDate > DateTime.Now.AddDays(-7) && x.StatusId == ApprovedStatusId).Sum(x => x.AmmountUSD), 2 );
         }
         private bool ValidateUser7Days(User user) => user.CreatedDate > DateTime.Now.AddDays(-7);
 
@@ -46,7 +46,7 @@ namespace Challenge.Service
             new UserRiskValidationResponse()
             {
                 RejectedPaymentsQuantityLastDay = CalculateRejectedPaymentsQuantityLastDay(payments),
-                TotalAmmountLastWeek = CalculateTotalAmmountLastWeek(payments, user),
+                TotalAmmountLastWeek = CalculateTotalAmmountLastWeek(payments),
                 IsNewId = ValidateUser7Days(user)
             };
     }
